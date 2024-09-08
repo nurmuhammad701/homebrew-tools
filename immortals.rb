@@ -8,8 +8,8 @@ class Immortals < Formula
     depends_on "go" => :build
   
     def install
-      system "go", "build", "-o", bin/"todo", "./todos/main.go"
-      system "go", "build", "-o", bin/"currency", "./Currency/currency.go"
+      system "go", "build", "-o", bin/"todo", "./todos"
+      system "go", "build", "-o", bin/"currency", "./Currency"
     end
   
     test do
