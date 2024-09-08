@@ -1,8 +1,8 @@
 class Immortals < Formula
   desc "Collection of CLI tools including todo and currency converter"
   homepage "https://github.com/nurmuhammad701/immortals_brew"
-  url "https://github.com/nurmuhammad701/immortals_brew/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "3aa2f78413ab1ef437a9899d5042c94d5cde351fa6264b88074d7cbb90ad4eca"
+  url "https://github.com/nurmuhammad701/immortals_brew/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "cbe64c324f9f70aa84a7438fe0d0de63f1d26bf793ce1b9f2ccd712a3e8dfa77"
   license "MIT"
 
   depends_on "go" => :build
